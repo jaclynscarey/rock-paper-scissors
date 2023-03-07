@@ -30,27 +30,27 @@ document.querySelector('#scalpellus').addEventListener('click', userChooses);
 function compareChoices(){
   computerChooses();
 if (computer.choice == player.choice){
-  document.querySelector('.result').innerHTML = "It's a tie, the computer and the player chose " + computer.choice + ".";
+  document.querySelector('.result').innerHTML = "It's a tie, you and the computer chose " + computer.choice + ".";
 
 } else if (computer.choice == options[0]){
   if (player.choice == options[1]){
-    document.querySelector('.result').innerHTML = "The player wins! The player chose " + options[1] + " and the computer chose " + options[0] + "."; 
+    document.querySelector('.result').innerHTML = "You Win! You chose " + options[1] + " and the computer chose " + options[0] + "."; 
   } else {
-    document.querySelector('.result').innerHTML = "The computer wins! The computer chose " + options[0] + " and the player chose " + options[2] + "."; 
+    document.querySelector('.result').innerHTML = "The computer wins! The computer chose " + options[0] + " and you chose " + options[2] + "."; 
   }
 
 } else if (computer.choice == options[1]){
   if (player.choice == options[2]){
-    document.querySelector('.result').innerHTML ="The player wins! The player chose " + options[2] + " and the computer chose " + options[1] + "."; 
+    document.querySelector('.result').innerHTML ="You Win! You chose " + options[2] + " and the computer chose " + options[1] + "."; 
   } else {
-    document.querySelector('.result').innerHTML ="The computer wins! The computer chose " + options[1] + " and the player chose " + options[0] + "."; 
+    document.querySelector('.result').innerHTML ="The computer wins! The computer chose " + options[1] + " and you chose " + options[0] + "."; 
   }
 
 } else if (computer.choice == options[2]){
   if (player.choice == options[0]){
-    document.querySelector('.result').innerHTML ="The player wins! The player chose " + options[0] + " and the computer chose " + options[2] + "."; 
+    document.querySelector('.result').innerHTML ="You Win! You chose " + options[0] + " and the computer chose " + options[2] + "."; 
   } else if (player.choice == options[1]){
-    document.querySelector('.result').innerHTML ="The computer wins! The computer chose " + options[2] + " and the player chose " + options[1] + ".";
+    document.querySelector('.result').innerHTML ="The computer wins! The computer chose " + options[2] + " and you chose " + options[1] + ".";
   }
 }
 }
