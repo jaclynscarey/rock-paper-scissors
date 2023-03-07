@@ -2,3 +2,27 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  text-align: center;
+}
+h1 {
+  color: magenta;
+}
+
+p {
+  color: purple;
+  
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: 1px dotted darkblue;
+    background-color: lightpink;
+  color: purple;
+  text-shadow: 2px;
+}
+
+h3 {
+  color: blue;
+}
