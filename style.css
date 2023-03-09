@@ -1,28 +1,25 @@
-html {
-  height: 100%;
-  width: 100%;
-}
 body {
-  text-align: center;
+    text-align: center;
+    background-color: lightgrey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-h1 {
-  color: magenta;
+input {
+    height: 25px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: larger;
+    color: blue;  
 }
-
-p {
-  color: purple;
-  
-}
-
 button {
-  width: 200px;
-  height: 50px;
-  border: 1px dotted darkblue;
-    background-color: lightpink;
-  color: purple;
-  text-shadow: 2px;
+    background-color: black;
+    color: white;
 }
-
-h3 {
-  color: blue;
+#start, #reset, #submit {
+    margin: 10px 10px;
+    height: 30px;
+    width: 75px;    
+}
+.selector {
+    width: 500px;
+    height: 50px;
 }
