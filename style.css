@@ -7,8 +7,7 @@ input {
     height: 25px;
     width: 200px;
     font-weight: bolder;
-    font-size: larger;
-    color: blue;  
+    font-size: larger;  
 }
 button {
     background-color: black;
