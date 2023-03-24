@@ -23,6 +23,7 @@ button {
     width: 500px;
     height: 50px;
 }
+
 .confetti{
     position: fixed;
     top: 0px;
@@ -30,3 +31,12 @@ button {
     background-color: transparent;
     z-index: -1;
  }
+
+button:hover {
+  background-color: gray;
+  color: black;
+}
+
+input:hover {
+  background-color: #ededed;
+}
