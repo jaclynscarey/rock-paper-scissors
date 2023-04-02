@@ -12,6 +12,7 @@ const options = ["Rock", "Paper", "Scissors"];
 function setPlayerName() {
   player.name = document.querySelector('input').value;
   document.querySelector('#player-name').innerHTML = player.name;
+  document.getElementById('name-input').value = '';
 }
 
 function reset() {
