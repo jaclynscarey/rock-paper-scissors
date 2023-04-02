@@ -106,6 +106,8 @@ initConfetti = () => {
   }
 };
 
+//Confetti Explosion
+//Credit: https://www.codehim.com/animation-effects/javascript-confetti-explosion-effect/
 //---------Render-----------
 render = () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
