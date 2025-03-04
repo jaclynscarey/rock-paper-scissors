@@ -2,21 +2,31 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Rock, Paper, Scissors</title>
-  
-
+  <link rel="stylesheet" href="style.css">
+  <title>Rock, Paper, Scissors</title>  
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<h1>Rock, Paper, Scissors</h1>
-<p>Make your selection below:</p>
-<button id="lapis">Rock</button><br/><br/>
-<button id="papyrus">Paper</button><br/><br/>
-<button id="scalpellus">Scissors</button><br/><br/>
+    <section>
+    <h1>Rock, Paper, Scissors</h1>
+    <input type="text" placeholder="Player Name">
+  </section>
+  <section>
+    <button id="start">Start</button>
+    <button id="reset" type="reset">Reset</button>
+  </section>
+  <section>
+  <p>Make your selection below:</p>
+  <button class="selector" id="lapis">Rock</button><br/><br/>
+  <button class="selector" id="papyrus">Paper</button><br/><br/>
+  <button class="selector" id="scalpellus">Scissors</button><br/><br/>
+  </section>
 
-<h3 class="result">The winner is...</h3>
-<!-- partial -->
+  <h3 class="result">The winner is...</h3>
+  <h3>Score: <span id="player-name">Player</span> <span id="player-score">0</span> vs Computer <span id="computer-score">0</span></h3>
+  <canvas class="confetti" id="canvas"></canvas>
   <script  src="./script.js"></script>
+
+  
 
 </body>
 </html>
